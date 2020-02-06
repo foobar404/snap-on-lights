@@ -1,4 +1,4 @@
-const classifier = ml5.soundClassifier('/snap-model/model.json', modelReady);
+const classifier = ml5.soundClassifier('https://foobar404.github.io/snap-on-lights/snap-model/model.json', modelReady);
 
 function modelReady() {
     // classify sound
