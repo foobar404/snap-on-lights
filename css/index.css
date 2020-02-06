@@ -1,0 +1,32 @@
+body,
+html,
+main {
+    margin: 0;
+    height: 100%;
+}
+
+* {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.on {
+    background: gold;
+}
+
+header {
+    margin-bottom: 40px;
+    position: fixed;
+    top: 0;
+}
+
+header h1 {
+    color: white;
+}
